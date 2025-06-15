@@ -1,0 +1,23 @@
+body {
+  padding: 25px;
+}
+
+aside {
+  float: left;
+  max-width: 200px;
+  background-color: #CCCCCC;
+  margin: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+main {
+  float: left;
+  max-width: 600px;
+}
+
+@media screen and (max-width: 900px) {
+  aside {
+    max-width: 100%;
+  }
+}
